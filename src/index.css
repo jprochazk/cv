@@ -176,6 +176,9 @@ body {
 #body > main h3 {
     padding-top: 12px;
 }
+#body > main ul {
+    padding-top: 4px;
+}
 button[type="button"] {
     cursor: pointer;
 }
