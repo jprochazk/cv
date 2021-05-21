@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "build": "node ./build.js"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "terser": "^5.7.0"
+    }
+}
