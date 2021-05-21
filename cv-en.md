@@ -9,7 +9,7 @@
 
 ### Personal projects (open-source)
 
-**2D online game** *TypeScript, WebGL, WebSocket, Node.js*
+[**2D online game**](https://github.com/evercrawl/game) *TypeScript, WebGL, WebSocket, Node.js*
 
 An advanced 2D side-scroller prototype. Runs in a web browser, graphics are drawn using WebGL, and WebSockets serve as the network transport. The project includes automated testing using Github Actions, and deployment using Heroku.
 
@@ -18,7 +18,7 @@ Additionally, a few libraries and tools were built during development:
 * uecs: The basis for manipulating large amount of data using loosely-coupled systems
 * tedit: 2D editor for creating tiled levels
 
-**Scripting language** *Rust*
+[**Scripting language**](https://github.com/ves-lang/ves) *Rust*
 
 An implementation of a custom programming language.
 * Inspired by JavaScript and Rust

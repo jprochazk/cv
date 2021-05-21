@@ -9,7 +9,7 @@
 
 ### Osobní projekty (open-source)
 
-**2D online hra** (*TypeScript, WebGL, WebSocket, Node.js*)
+[**2D online hra**](https://github.com/evercrawl/game) (*TypeScript, WebGL, WebSocket, Node.js*)
 
 Pokročilý prototyp 2D side-scrolleru. Platformou je webový prohlížeč, grafika je vykreselena pomocí WebGL a WebSockety slouží jako síťový transport. Projekt má automatizované testování pomocí Github Actions a automatizovaný deployment pomocí Heroku.
 
@@ -18,7 +18,7 @@ Jako součást projektu byly vyvinuty různé nástroje a knihovny:
 * uecs: Základ k manipulaci velkého množství dat pomocí volně vázaných systémů
 * tedit: 2D editor pro vytváření dláždicových levelů
 
-**Skriptovací jazyk** (*Rust*)
+[**Skriptovací jazyk**](https://github.com/ves-lang/ves) (*Rust*)
 
 Jedná se o implementaci vlastního programovacího jazyka.
 * Jazyk bere inspiraci z JavaScriptu a Rustu
