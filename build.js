@@ -1,14 +1,10 @@
 (async function() {const fs = require("fs");
     const path = require("path");
     const js = require("terser");
+    const CleanCss = require("clean-css");
     const css = {
-        minify: function(input) {
-            return input.replace(/([^0-9a-zA-Z\.#])\s+/g, "$1")
-                .replace(/\s([^0-9a-zA-Z\.#]+)/g, "$1")
-                .replace(/;}/g, "}")
-                .replace(/\/\*.*?\*\//g, "");
-        }
-    }
+        minify: (v) => new CleanCss().minify(v).styles
+    };
 
     const Style = {
         Reset: "\x1b[0m",
@@ -81,7 +77,7 @@
         const ext = path.extname(inPath);
         switch (ext) {
             case ".js": content = (await js.minify(content.toString("utf-8"))).code; break;
-            case ".css": content = content.toString("utf-8"); break;
+            case ".css": content = css.minify(content.toString("utf-8")); break;
             case ".html": content = content.toString("utf-8"); break;
             case ".md": content = content.toString("utf-8"); break;
         }
