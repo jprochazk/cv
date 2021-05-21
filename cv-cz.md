@@ -14,9 +14,9 @@
 Pokročilý prototyp 2D side-scrolleru. Platformou je webový prohlížeč, grafika je vykreselena pomocí WebGL a WebSockety slouží jako síťový transport. Projekt má automatizované testování pomocí Github Actions a automatizovaný deployment pomocí Heroku.
 
 Jako součást projektu byly vyvinuty různé nástroje a knihovny:
-* packetc: Schématový generátor kódu pro serializaci/deserializaci dat do jednoduchého binárního formátu
-* uecs: Základ k manipulaci velkého množství dat pomocí volně vázaných systémů
-* tedit: 2D editor pro vytváření dláždicových levelů
+* [packetc](https://github.com/EverCrawl/packetc): Schématový generátor kódu pro serializaci/deserializaci dat do jednoduchého binárního formátu
+* [uecs](https://github.com/jprochazk/uecs): Základ k manipulaci velkého množství dat pomocí volně vázaných systémů
+* [tedit](https://github.com/jprochazk/tedit): 2D editor pro vytváření dláždicových levelů
 
 [**Skriptovací jazyk**](https://github.com/ves-lang/ves) (*Rust*)
 
