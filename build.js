@@ -81,7 +81,7 @@
         const ext = path.extname(inPath);
         switch (ext) {
             case ".js": content = (await js.minify(content.toString("utf-8"))).code; break;
-            case ".css": content = css.minify(content.toString("utf-8")); break;
+            case ".css": content = content.toString("utf-8"); break;
             case ".html": content = content.toString("utf-8"); break;
             case ".md": content = content.toString("utf-8"); break;
         }
